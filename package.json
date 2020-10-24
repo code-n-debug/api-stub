@@ -1,0 +1,29 @@
+{
+  "name": "api-stub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-n-debug/api-stub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-n-debug/api-stub/issues"
+  },
+  "homepage": "https://github.com/code-n-debug/api-stub#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "sqlite3": "^5.0.0"
+  }
+}
